@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 5rem;
+  background: rgb(28, 22, 145);
+  background: radial-gradient(
+    circle,
+    rgba(28, 22, 145, 1) 0%,
+    rgba(42, 42, 144, 1) 24%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  height: 6rem;
+  width: 10rem;
+}
+
+.choices {
+  padding-top: 5rem;
+}
+
+.choices > h2 {
+  padding: 2rem;
+  color: white;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin-left: 3rem;
+  border-radius: 200px;
+  border: none;
+  background-color: white;
+}
